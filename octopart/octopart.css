@@ -8,6 +8,41 @@ body
     background: #161616 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQI12NgYGD4LycnB8cMKioqqAJwBlQlXACmEgCsthUB9mCnuQAAAABJRU5ErkJggg==") repeat !important;
 }
 
+#f-logo img, .header-searchbar-layout-col1 a img, 
+#g-header-icon, .toolbar-logo, 
+a.content-results-part-datasheet img, a.content-results-part-nodatasheet img {
+	height: 0 !important;
+	width: 0 !important;
+}
+
+#f-logo img {
+	padding-left: 300px !important;
+	padding-top: 80px !important;
+	background: url(https://github.com/inductiveload/stylish-bathys/blob/master/octopart/Octopart%20dark.png?raw=true) no-repeat !important;
+}
+
+.header-searchbar-layout-col1 a img, #g-header-icon, .toolbar-logo  {
+	padding-left: 181px !important;
+	padding-top: 57px !important;
+	background: url(https://github.com/inductiveload/stylish-bathys/blob/master/octopart/Octopart%20dark%20small.png?raw=true) no-repeat !important;
+}
+
+#g-header-icon {
+    margin-top: -15px;
+}
+
+a.content-results-part-datasheet img {
+	padding-left: 16px !important;
+	padding-top: 16px !important;
+    background: url(https://github.com/inductiveload/stylish-bathys/blob/master/icons/pdf-16.png?raw=true) no-repeat !important;
+}
+
+a.content-results-part-nodatasheet img {
+	padding-left: 16px !important;
+	padding-top: 16px !important;
+    background: url(https://github.com/inductiveload/stylish-bathys/blob/master/icons/pdf-grey-16.png?raw=true) no-repeat !important;
+}
+
 body, #layout-col2-inner-wrapper {
     color: #AAA !important;
 }
@@ -73,7 +108,7 @@ h1, h2, h3 {
 .sidebar-node-line-selected-ancestor,
 #g-footer-bg,
 div.code-example-content, .highlight, pre,
-.endpoint > li label
+.endpoint > li label, .content-noresults
 {
     background: #222 !important
 }
