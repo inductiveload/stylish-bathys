@@ -1,0 +1,91 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("slashdot.org") 
+{
+
+body
+{
+  background: #161616 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQI12NgYGD4LycnB8cMKioqqAJwBlQlXACmEgCsthUB9mCnuQAAAABJRU5ErkJggg==") repeat !important;
+}
+
+#content,header.h,#content,li.enhancedspacer, #d2header, .generalbody
+{
+    background: transparent !important;
+    border: none !important;
+}
+
+#clickgen > .st > section, #clickgen > section > div, #clickgen > aside > div,
+#slashboxes article, table.bar, footer, #linky .boxy, #linky-wrap, 
+#vert-related .odd, #vert-related .even
+ {
+    border: none !important;
+}
+
+.p, .c, .legend, aside, .by, .otherdetails, .tm, .commentBody, .details,
+#poll-content, .notes, .totalVotes, .barAnswer, .firehose > span a
+{
+    color: #AAA !important;
+}
+
+.details a, blockquote.msg p, .pollBooth_view h1, .widget-wrap
+{
+    color: #CCC !important;
+}
+
+#firehose article > p i, article .quote, #editpreview article > p i, .commentBody .quote
+{
+    border-left: 3px solid #444444 !important;
+}
+
+#comments .full
+{
+    border: none !important;
+    background: rgba(100, 100, 100, 0.2);
+}
+
+#besttabs, #newa2footerv2 .pr h3,#newa2footerv2 .ns h3,#newa2footerv2 .rl h3,
+#clickgen .tlnav, .thisday-tb, #firehose-message-tray p, #firehose article.briefarticle header h2, h2.firehose, 
+.modal-box, footer, #vert-header-bg, .widget-wrap
+{
+    background: #333 !important;
+}
+
+#firehose article.briefarticle header h2{
+    border-radius: 10px 10px 10px 10px;
+}
+
+div.details, #poll-content, #comments article, #firehose article, #slashboxes article,
+#searchquery, blockquote.msg p, #vert-related .even
+{
+    background: #222 !important;
+}
+
+#fhtablist_new li.active, #fhtablist_new li.active span, 
+.tcenter.before a, .tcenter.after a, td.barPercent
+{
+    background: #111 !important;
+}
+
+#fhtablist_new li.active a
+{
+    text-shadow: none !important;
+}
+
+#dice_jobs
+{
+    display: none !important;
+}
+
+.btn, button, input[type="submit"], input[type="reset"], input[type="button"], a.prevnextbutdis, a.prevnextbutact
+{
+    background: -moz-linear-gradient(center top , #222 0%, #333 100%) repeat scroll 0 0 transparent !important;
+    border: 1px solid #888 !important;
+    box-shadow: none !important;
+    color: #AAA !important;
+}
+
+.fhitem input, .fhitem textarea, input.s, #freshmeat input{
+    color: #000 !important;
+}
+
+}
