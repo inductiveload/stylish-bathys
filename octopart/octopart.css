@@ -1,0 +1,135 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("octopart.com") 
+{
+
+body
+{
+    background: #161616 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQI12NgYGD4LycnB8cMKioqqAJwBlQlXACmEgCsthUB9mCnuQAAAABJRU5ErkJggg==") repeat !important;
+}
+
+body, #layout-col2-inner-wrapper {
+    color: #AAA !important;
+}
+
+#ad {
+    display: none !important;
+}
+
+#layout-body,
+div#main-container.body-layout
+{
+    background: none !important;
+}
+
+#g-header-top-bg
+{
+    background-image: none !important;
+}
+
+.header-wrapper, #g-header-top-bg, #g-header-bottom,
+.toolbar-wrapper, .content-filtersummary-wrapper,
+.partsearch_sidebar, tr.shaded, .ui-tabs-panel,
+#layout-col1-inner
+{
+    background-color: #333 !important
+}
+
+.content-filtersummary-wrapper, .partsearch_sidebar
+{
+    border: 1px solid black !important;
+}
+
+a.content-results-part-title, span.nv {
+    color: #91DBF7 !important;
+}
+
+a,
+.sidebar-filter-label.unselectable,
+#offertable tbody tr,
+div.title, #summary-title, 
+h1, h2, h3 {
+    color: #EEE !important;
+}
+
+#f-category-table td a {
+    color: #AAA !important;
+}
+
+#g-header-top li
+{
+    text-shadow: none !important;
+}
+    
+#g-header-top li a
+{
+    color: #aaa !important;
+}
+
+.sidebar-categories, td.nodename > a {
+    color: #aaa !important;
+}
+
+.sidebar-node-line-selected-ancestor,
+#g-footer-bg,
+div.code-example-content, .highlight, pre,
+.endpoint > li label
+{
+    background: #222 !important
+}
+
+.sidebar-node-line-selected,
+th {
+    background: #111 !important;
+    color: #FFF !important;
+}
+
+.sidebar-node-toggleswitch {
+    color: #888 !important;
+}
+
+#banner-wrapper, #banner_wrapper {
+    border-left: none !important;
+}
+
+th, #offertable td, #specs td, .schema-group td, .rest-tabdata td {
+    border: 1px solid black !important;
+}
+
+td.sectionnamecol
+{
+    border: none !important;
+}
+
+td.offertable-pricecol,
+td.offertable-stockcol,
+.content-results-part-offertable,
+.specs-valcol, code
+ {
+    color: green !important;
+}
+
+#home-logo-table {
+    background: #FFF;
+}
+
+ .endpoint > li {
+    box-shadow: none;
+}
+
+.endpoint-container-header-row1 td.selected {
+    background: #444 !important;
+}
+
+#f-category-table th
+{
+    border: none !important;
+}
+
+.button, button, input[type="button"], input[type="reset"], input[type="submit"]
+{
+    box-shadow:none !important;
+}
+
+
+}
