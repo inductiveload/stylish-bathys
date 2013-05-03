@@ -22,7 +22,7 @@ body
 }
 
 .p, .c, .legend, aside, .by, .otherdetails, .tm, .commentBody, .details,
-#poll-content, .notes, .totalVotes, .barAnswer, .firehose > span a
+#poll-content, .notes, .totalVotes, .barAnswer, .firehose > span a, .btn, .bodytext
 {
     color: #AAA !important;
 }
@@ -76,7 +76,7 @@ div.details, #poll-content, #comments article, #firehose article, #slashboxes ar
     display: none !important;
 }
 
-.btn, button, input[type="submit"], input[type="reset"], input[type="button"], a.prevnextbutdis, a.prevnextbutact
+button, input[type="submit"], input[type="reset"], input[type="button"], a.prevnextbutdis, a.prevnextbutact
 {
     background: -moz-linear-gradient(center top , #222 0%, #333 100%) repeat scroll 0 0 transparent !important;
     border: 1px solid #888 !important;
