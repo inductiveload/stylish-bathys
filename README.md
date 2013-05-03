@@ -10,6 +10,9 @@ The GT DeepDark theme is CC-BY-NC-ND, but the only thing used here is the
 background image, which is only 16 pixels, and therefore is uncopyrightable 
 as a simple shape.
 
+Some icons and images are copyrightable and licenced freely but require
+attributino - see the ATTRIBUTION file under the icons/ directory for this.
+
 # Elements
 
  * Background - a simple 16 pixel PNG
