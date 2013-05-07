@@ -22,11 +22,11 @@ body
 .badge1, .badge2, .badge3, .add-interesting-tag-on,
 .add-interesting-tag-off, .fb-share, .twitter-share,
 .gp-share {
-    background-image: url("https://github.com/inductiveload/stylish-bathys/blob/master/stackexchange/sprites.png?raw=true") !important;
+    background-image: url("https://github.com/inductiveload/stylish-bathys/blob/master/stackoverflow/sprites.png?raw=true") !important;
 }
 
 .wmd-button > span {
-    background-image: url("https://github.com/inductiveload/stylish-bathys/blob/master/stackexchange/wmd-buttons.png?raw=true") !important;
+    background-image: url("https://github.com/inductiveload/stylish-bathys/blob/master/stackoverflow/wmd-buttons.png?raw=true") !important;
 }
 
 #content{
