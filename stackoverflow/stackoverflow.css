@@ -1,0 +1,187 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("stackoverflow.com")
+{
+
+body
+{
+    background: #161616 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQI12NgYGD4LycnB8cMKioqqAJwBlQlXACmEgCsthUB9mCnuQAAAABJRU5ErkJggg==") repeat !important;
+    color: #AAA !important;
+}
+
+#hlogo a, .envelope-on, .envelope-off,
+.vote-up-off, .vote-up-on, .vote-down-off,
+.vote-down-on, .star-on, .star-off,
+.comment-up-off, .comment-up-on, .comment-flag,
+.edited-yes, a.cc-wiki-link, .feed-icon, .statsarrow,
+.vote-accepted-off, .vote-accepted-on,
+.vote-accepted-bounty, .badge-earned-check,
+.delete-tag, .grippie, .expander-arrow-hide,
+.expander-arrow-show, .expander-arrow-small-hide,
+.expander-arrow-small-show, .anonymous-gravatar,
+.badge1, .badge2, .badge3, .add-interesting-tag-on,
+.add-interesting-tag-off, .fb-share, .twitter-share,
+.gp-share {
+    background-image: url("https://github.com/inductiveload/stylish-bathys/blob/master/stackexchange/sprites.png?raw=true") !important;
+}
+
+.wmd-button > span {
+    background-image: url("https://github.com/inductiveload/stylish-bathys/blob/master/stackexchange/wmd-buttons.png?raw=true") !important;
+}
+
+#content{
+    background: none !important;
+}
+
+span.feed-icon {
+    background-color: transparent !important;
+}
+
+h1, h1 a, h2, .reputation-score, .page-description,
+#seTabSites, .reputation a, .vote-count-post  {
+    color: #EEE !important;
+}
+
+td.postcell, .comments, .module, .module p.label-key,
+.seWrapper .siteInfo a, .subheader a,
+.answer-hyperlink, .votes-cast-stats th {
+    color: #AAA !important;
+}
+
+#custom-header, .popup {
+    background: #222 !important;
+    border-bottom: 1px #555 solid !important;
+}
+
+#hsearch .textbox {
+    color: #EEE !important;
+    border-width: 0 !important;
+}
+
+div#herobox-mini {
+    background: #222 !important;
+    border: none !important;
+}
+
+#footer, tr.comment:hover, #tabs a:hover,
+.accepted-answer {
+    background: #222 !important;
+}
+
+#wmd-button-bar, div#hero-content {
+    background: none !important;
+}
+
+.answer-help-background, .seWrapper .seIntro,
+.seWrapper .seFooter, #seTabHot,
+.review-bar-container .review-bar {
+    background: #222 !important;
+}
+
+.stats {
+    background: #111 !important;
+}
+
+.mdhelp, .mdhelp-tabs, .newuser, .seWrapper,
+.subtabs a.youarehere, .answer-votes,  .highlight-row,
+.tagged-interesting,
+.review-stats-count-current-user,
+.review-stats-current-user,
+.stats-mainbar .task-stat-table,
+.stats-mainbar .task-stat-table td, .bounty {
+    background: #111 !important;
+    color: #AAA !important;
+}
+
+.stats-mainbar .task-stat-table td {
+    border: 5px solid #555 !important;
+}
+
+code, pre, .owner, blockquote,
+.seWrapper .seNav, .user-about-me {
+    background: #333 !important;
+}
+
+.new-post-activity   {
+    background: #444 !important;
+}
+
+.seWrapper{
+    box-shadow: none !important;
+    border: 2px solid #AAA !important;
+}
+
+.seWrapper .itemBox {
+    border-bottom: 1px solid #666 !important;
+}
+
+.nav li {
+    background: #111 !important;
+}
+
+.nav .youarehere, #tabs a.youarehere {
+    background: #FF9900 !important;
+    color: #000 !important;
+}
+
+div#hero-content {
+    border: 3px solid #111 !important;
+}
+
+.preferred-login, .new-login-right .form-item {
+    background: #333 !important;
+    border: 1px solid #666 !important;
+    box-shadow: none !important;
+}
+
+.show-votes .sidebar-linked .answer-votes,
+.show-votes .sidebar-related .answer-votes, .date_brick {
+    background: #111 !important;
+    color: #AAA !important;
+}
+
+a.post-tag {
+    background: #111 !important;
+    border: 1px solid #333 !important;
+    color: #00ADEE !important;
+}
+
+#tabs a {
+    border: none !important;
+    border: 1px solid #333 !important;
+}
+
+.user-show-new .user-rep-full .rep-down {
+    color: #F00 !important;
+}
+
+/* code formatting*/
+code span.pln, code span.pun {
+    color: #D8D8D8 !important;
+}
+
+code span.kwd, code span.atv  {
+    color: #FFFFFF !important;
+}
+
+code span.str{
+    color: #FFC600 !important;
+}
+
+code span.tag {
+    color: #FF0000 !important;
+}
+
+code span.lit {
+    color: #7FB347 !important;
+}
+
+code span.com {
+    color: #C7DD0C !important;
+}
+
+code span.typ {
+    color: #D25252 !important;
+}
+
+}
