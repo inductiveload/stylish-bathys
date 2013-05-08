@@ -47,19 +47,19 @@ img[alt="Folder"], img[alt="File"], img[alt="C file"], img[alt="Back"] {
 }
 
 img[alt="Folder"] {
-	background: url(https://github.com/inductiveload/stylish-bathys/icons/folder-22.png?raw=true) no-repeat !important;
+	background: url("https://github.com/inductiveload/stylish-bathys/blob/master/icons/folder-22.png?raw=true") no-repeat !important;
 }
 
 img[alt="File"] {
-	background: url(https://github.com/inductiveload/stylish-bathys/icons/text-x-generic-22.png?raw=true) no-repeat !important;
+	background: url("https://github.com/inductiveload/stylish-bathys/blob/master/icons/text-x-generic-22.png?raw=true") no-repeat !important;
 }
 
 img[alt="C file"] {
-	background: url(https://github.com/inductiveload/stylish-bathys/icons/text-x-c-22.png?raw=true) no-repeat !important;
+	background: url("https://github.com/inductiveload/stylish-bathys/blob/master/icons/text-x-c-22.png?raw=true") no-repeat !important;
 }
 
 img[alt="Back"] {
-	background: url(https://github.com/inductiveload/stylish-bathys/icons/arrow-back-22.png?raw=true) no-repeat !important;
+	background: url("https://github.com/inductiveload/stylish-bathys/blob/master/icons/arrow-back-22.png?raw=true") no-repeat !important;
 }
 
 h1, h2, h3 {

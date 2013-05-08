@@ -1,0 +1,231 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("wikipedia.org"),
+                domain("wikimedia.org"),
+                domain("wikidata.org") 
+{
+
+body
+{
+    background: #161616 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQI12NgYGD4LycnB8cMKioqqAJwBlQlXACmEgCsthUB9mCnuQAAAABJRU5ErkJggg==") repeat !important;
+    color: #AAA;
+}
+
+/* hide annoying images */
+#f-poweredbyico, #f-copyrightico {
+    display: none !important;
+}
+
+/* headings etc */
+h1, h2, h3, h4, h5, h6 {
+    color: #CCC !important;
+}
+
+strong {
+    color: #EEE !important;
+}
+
+
+#content {
+    background: none !important;
+    color: #AAA !important;
+    border-color: black !important;
+}
+
+/* links */
+
+a {
+    color: #00ADEE !important;
+}
+
+a:visited {
+    color: #91DBF7 !important;
+}
+
+a.new, #p-personal a.new {
+    color: #FF3300 !important;
+}
+
+/* frameless iamges need white bg */
+a.image img {
+    background: #fff !important;
+}
+
+#centralNotice {
+    display: none !important;
+}
+
+.pBody {
+    background: none !important;
+    border: none !important;
+}
+
+.mw-search-formheader, div#footer, div.thumbinner, #toc{
+    background: #222 !important;
+    border: 1px solid black !important;
+}
+
+.infobox {
+    background: #111 !important;
+    border: 1px solid black !important;
+    color: #CCC !important;
+}
+
+div#p-cactions li a:hover, div#p-cactions li.selected, 
+div#content div.thumb, .catlinks, .navbox-odd,
+.navbox, .navbox-subgroup, div#p-cactions li a, 
+div.portal table, .mw-notification, .wikiEditor-ui-toolbar, 
+#mw-head, .mw-pt-languages-list, 
+div.vectorTabs ul li, div.vectorTabs, div.vectorTabs span, 
+div#simpleSearch, .mw-trackedTemplate, .metadata
+{
+    background: #222 !important;
+}
+
+.navbox th, .navbox-title, .navbox-even, .navbox-abovebelow,
+table.ambox, .vertical-navbox, #pagehistory li.selected,
+table.toccolours, .mw-pt-languages-label, #otherlangs {
+    background: #333 !important;
+}
+
+.navbox-list {
+    border-color: #555 !important;
+}
+
+/* search page */
+
+#mw-searchoptions
+{
+    background: #222 !important;
+    border: 1px solid black !important;
+}
+.mw-search-results li:nth-child(2n+1){
+    background: #222 !important;
+}
+
+.mw-search-results li:nth-child(2n){
+    background: #333 !important;
+}
+  
+/* Main page tables */
+.MainPageBG table, .MainPageBG div, .MainPageBG {
+    background: #222 !important;
+    color: #CCC !important;
+}
+
+/* Main page headings */
+#mp-tfa-h2, #mp-itn-h2, #mp-dyk-h2, 
+#mp-otd-h2, #mp-tafi-h2, #mp-tfp-h2
+{
+    background: #111 !important;
+    border: 1px solid #444 !important;
+}
+
+/* info boxes */
+.infobox th {
+    background: #222 !important;   
+}
+
+/* wikitables */
+table.wikitable {
+    background: #222 !important;
+    color: #CCC !important;
+}
+
+table.wikitable > tr > th, 
+table.wikitable > * > tr > th {
+    background: #111 !important;
+}
+
+.mbox-text,
+.mw-echo-overlay
+ {
+    background: #111 !important;
+}
+
+#p-personal .mw-echo-overlay li.mw-echo-notification.mw-echo-unread, 
+#p-personal .mw-echo-overlay li.mw-echo-notification.mw-echo-unread:hover,
+#mp-topbanner, #mp-topbanner div, .mbox-small {
+    background: #222 !important;
+    color: #AAA !important;
+}
+
+/* syntax highlighting */
+
+code, pre, div.mw-geshi {
+    background: #222 !important;
+    color: #AAA !important;
+}
+
+div.mw-geshi .co1 {
+    color: #C7DD0C !important;
+}
+
+div.mw-geshi .sy0, div.mw-geshi .sy1, div.mw-geshi .sy2 {
+    color: #d8d8d8 !important;
+}
+
+div.mw-geshi .me1 {
+    color: #bed6ff !important;
+}
+
+div.mw-geshi .st0 {
+    color: #ffc600 !important;
+}
+
+div.mw-geshi .nu0 {
+    color: #7fb347 !important;
+}
+
+div.mw-geshi .br0 {
+    color: #ccc !important;
+}
+
+div.mw-geshi .kw1, div.mw-geshi .kw2, 
+div.mw-geshi .kw3, div.mw-geshi .kw4 {
+    color: #FFF !important;
+}
+
+.mw-plusminus-neg {
+    color: #F00 !important;
+}
+
+}
+
+/* site specific */
+
+@-moz-document domain("wikipedia.org") 
+{
+
+/* main logo */
+#p-logo a{
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Wikipedia_svg_logo.svg/150px-Wikipedia_svg_logo.svg.png") no-repeat !important;
+}
+
+}
+
+/* wikidata*/
+@-moz-document domain("wikidata.org") 
+{
+
+div.wb-claim-section, 
+div.wb-claim-section > .wb-addtoolbar,
+table.wb-sitelinks .uneven td {
+    background: #222 !important;
+}
+
+div.wb-claim-section .wb-claim-section-name,
+table.wb-sitelinks .even td {
+    background: #333 !important;
+}
+
+table.wb-sitelinks .wb-sitelinks-columnheaders {
+    background: #111 !important;
+}
+
+.ui-widget-content {
+    background: #222 !important;
+    color: #AAA !important;
+}
+
+}
