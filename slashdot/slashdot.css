@@ -1,7 +1,9 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document domain("slashdot.org") 
-{
+@-moz-document  domain("slashdot.org"){
+}
+
+@-moz-document  regexp("https?://slashdot\.org/.*"){
 
 body
 {
@@ -40,7 +42,7 @@ body
 #comments .full
 {
     border: none !important;
-    background: rgba(100, 100, 100, 0.2);
+    background: rgba(100, 100, 100, 0.15);
 }
 
 #besttabs, #newa2footerv2 .pr h3,#newa2footerv2 .ns h3,#newa2footerv2 .rl h3,
@@ -66,6 +68,12 @@ div.details, #poll-content, #comments article, #firehose article, #slashboxes ar
     background: #111 !important;
 }
 
+.book_data
+{
+    background: #111 !important;
+    color: #AAA !important;
+}
+
 #fhtablist_new li.active a
 {
     text-shadow: none !important;
@@ -86,6 +94,110 @@ button, input[type="submit"], input[type="reset"], input[type="button"], a.prevn
 
 .fhitem input, .fhitem textarea, input.s, #freshmeat input{
     color: #000 !important;
+}
+}
+
+
+/*
+ * BETA Site
+ */
+
+@-moz-document  regexp("https?://.*beta\.slashdot\.org/.*"){
+
+body, div#view-standard
+{
+  background: #161616 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQI12NgYGD4LycnB8cMKioqqAJwBlQlXACmEgCsthUB9mCnuQAAAABJRU5ErkJggg==") repeat !important;
+  color: #aaa !important;
+}
+
+article.comment-article,
+.split-left,
+div.menu
+{
+  background: #222 !important;
+  color: #aaa !important;
+  border: 2px solid #333 !important;
+  box-shadow: none !important;
+  padding: 10px 10px 10px 20px !important;
+}
+
+#view-standard .layout-article,
+#view-standard header.story-header, #view-classic header.story-header, #view-headline header.story-header 
+{
+  margin-bottom: 0px !important;
+}
+
+div#commentlisting,
+div.col-river,
+div.col-rail,
+div.split-left,
+div.split-right,
+.container.ts, .container > .nav-wrap
+{
+  background: #181818 !important;
+}
+
+.layout-article, .layout-rail
+{
+  background: #111 !important;
+  border-top: 10px solid #181818 !important;
+}
+
+.rail-module,
+.geeknet-video-widget .widget-title,
+h1 a, h2 a, h1, h2
+{
+  color: #999 !important;
+}
+
+#view-standard .featured-wrap [class^="feature-"] header.story-header
+{
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+#banner-wrap, #dice_jobs, #sourceforge2,
+.layout-rail:not([id])
+{
+  display: none !important;
+}
+
+.well,
+#layout-footer,
+.mobmenu li,
+.poll-list li
+{
+  background: #111 !important;
+}
+
+.search input
+{
+  color: #fff !important;
+}
+
+input, textarea, select
+{
+  background: #222 !important;
+  color: #ccc !important;
+}
+
+.menu-filter, .comment-filter,
+.news-content h3, .topics h3 {
+    border-bottom: 2px solid #111 !important;
+}
+
+.menu-filter > li > a, .comment-filter > li > a,
+.poll-list p {
+    color: #999 !important;
+}
+
+.btn-vanilla 
+{
+  background: #111 !important;
+}
+
+.btn-primary
+{
+  background: #006962 !important;
 }
 
 }
