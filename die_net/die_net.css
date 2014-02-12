@@ -10,7 +10,8 @@ body
 }
 
 a {
-    color: #C00 !important;
+    color: #C55 !important;
+    text-decoration: none !important;
 }
 
 #news, #wrapper {
