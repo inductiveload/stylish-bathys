@@ -3,6 +3,7 @@
 @-moz-document  domain("slashdot.org"){
 }
 
+
 @-moz-document  regexp("https?://slashdot\.org/.*"){
 
 body
@@ -17,7 +18,7 @@ body
 }
 
 #clickgen > .st > section, #clickgen > section > div, #clickgen > aside > div,
-#slashboxes article, table.bar, footer, #linky .boxy, #linky-wrap, 
+#slashboxes article, table.bar, footer, #linky .boxy, #linky-wrap,
 #vert-related .odd, #vert-related .even
  {
     border: none !important;
@@ -46,7 +47,7 @@ body
 }
 
 #besttabs, #newa2footerv2 .pr h3,#newa2footerv2 .ns h3,#newa2footerv2 .rl h3,
-#clickgen .tlnav, .thisday-tb, #firehose-message-tray p, #firehose article.briefarticle header h2, h2.firehose, 
+#clickgen .tlnav, .thisday-tb, #firehose-message-tray p, #firehose article.briefarticle header h2, h2.firehose,
 .modal-box, footer, #vert-header-bg, .widget-wrap
 {
     background: #333 !important;
@@ -62,7 +63,7 @@ div.details, #poll-content, #comments article, #firehose article, #slashboxes ar
     background: #222 !important;
 }
 
-#fhtablist_new li.active, #fhtablist_new li.active span, 
+#fhtablist_new li.active, #fhtablist_new li.active span,
 .tcenter.before a, .tcenter.after a, td.barPercent
 {
     background: #111 !important;
@@ -110,6 +111,14 @@ body, div#view-standard
   color: #aaa !important;
 }
 
+p {
+  font-size: 0.9rem !important;
+}
+
+h1 {
+  font-size: 1.2rem !important;
+}
+
 article.comment-article,
 .split-left,
 div.menu
@@ -122,7 +131,7 @@ div.menu
 }
 
 #view-standard .layout-article,
-#view-standard header.story-header, #view-classic header.story-header, #view-headline header.story-header 
+#view-standard header.story-header, #view-classic header.story-header, #view-headline header.story-header
 {
   margin-bottom: 0px !important;
 }
@@ -190,7 +199,7 @@ input, textarea, select
     color: #999 !important;
 }
 
-.btn-vanilla 
+.btn-vanilla
 {
   background: #111 !important;
 }
