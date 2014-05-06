@@ -3,7 +3,7 @@ DeepDark Google theme by Sr21
 
 # Licensing
 
-These themes are CC-BY-SA. Yuo are free to use, sell, remix, whatever, as long
+These themes are CC-BY-SA. You are free to use, sell, remix, whatever, as long
 as the end product is attributed back to this source and all freely distributable.
 
 The GT DeepDark theme is CC-BY-NC-ND, but the only thing used here is the 
@@ -20,6 +20,8 @@ attributino - see the ATTRIBUTION file under the icons/ directory for this.
      
  * Filled block elements
      * Generally #111, #222, #333
+
+ * Highlight colours generally remain the same as the original
      
 # Contributing
 
