@@ -1,3 +1,11 @@
+/*
+ * Style:   Bathys
+ * Site:    Google Code
+ * Author:  Inductiveload
+ * License: CC-BY-SA
+ * File:    googlecode/googlecode.css
+ */
+
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("code.google.com")
@@ -28,6 +36,28 @@ body,
     display: none !important;
 }
 
+/* fix home images */
+
+img[src*="https://ssl.gstatic.com/codesite/ph/images/defaultlogo.png"] {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 64px !important;
+    padding-top: 64px !important;
+    background: url("https://github.com/inductiveload/stylish-bathys/blob/master/googlecode/Google%20Code64.png?raw=true") no-repeat !important;
+}
+
+/* search results */
+
+#serp > table tr > td:first-child {
+    min-width: 64px;
+    text-align:center;
+    padding-left: 5px;
+}
+
+#serp > table td {
+    background: none !important;
+}
+
 /* adv search */
 table.advquery, table.issueimport {
      border: none !important;
@@ -41,7 +71,6 @@ table.advquery, table.issueimport {
     background-color: #111 !important;
     border: 1px solid #000;
 }
-
 
 /* code */
 .cuetip, .pmeta_bubble_bg, .popup{
@@ -243,10 +272,6 @@ input[type="button"], input[type="submit"], .buttonify{
 
 .results tr td {
     background-color: #222 !important;
-}
-
-{
-    border: 1px solid #000 !important;
 }
 
 .results, .results td, .results th,
