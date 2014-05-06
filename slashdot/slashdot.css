@@ -13,9 +13,19 @@ body
 
 #content,header.h,#content,li.enhancedspacer, #d2header, .generalbody
 {
-    background: transparent !important;
+    background: none repeat scroll 0 0 #111 !important;
     border: none !important;
 }
+
+.p a {
+    color: #009999 !important;
+}
+
+.p a:visited, #links a:visited {
+    color: #007777 !important;
+}
+
+
 
 #clickgen > .st > section, #clickgen > section > div, #clickgen > aside > div,
 #slashboxes article, table.bar, footer, #linky .boxy, #linky-wrap,
@@ -305,5 +315,6 @@ div.river-left {
 .comment-body blockquote, .comment-body q, .comment-body .quote {
   border-color: #111 !important;
 }
+
 
 }
