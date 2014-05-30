@@ -1,3 +1,11 @@
+/*
+ * Style:   Bathys
+ * Site:    Slashdot
+ * Author:  Inductiveload
+ * License: CC-BY-SA
+ * File:    slashdot/slashdot.css
+ */
+ 
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document  domain("slashdot.org"){
@@ -134,7 +142,8 @@ h1 {
   font-size: 1.1rem !important;
 }
 
-img.hero {
+img.hero,
+.job-header, #contextualJobs {
     display: none !important;
 }
 
@@ -150,7 +159,9 @@ div.menu
 }
 
 #view-standard .layout-article,
-#view-standard header.story-header, #view-classic header.story-header, #view-headline header.story-header
+#view-standard header.story-header, 
+#view-classic header.story-header, 
+#view-headline header.story-header
 {
   padding-top: 5px !important;
   margin-bottom: 0px !important;
@@ -176,6 +187,7 @@ div.menu
   font-size: 0.8rem !important;
 }
 
+.container,
 div#commentlisting,
 div.col-river,
 div.col-rail,
@@ -196,7 +208,6 @@ div.split-right,
 
 .layout-article, .layout-rail
 {
-  background: #111 !important;
   border-top: 10px solid #181818 !important;
 }
 
