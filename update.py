@@ -141,50 +141,65 @@ class UserStyleUpdater():
 
     def update(self, username, password, css):
 
-        self.br.open(self.editUrl)
+        screenshotType = 'manual'
 
-        if self.br.title().startswith("Login - "):
-            self.login(username, password)
+        while True:
             self.br.open(self.editUrl)
 
-        print self.br.title()
+            if self.br.title().startswith("Login - "):
+                self.login(username, password)
+                self.br.open(self.editUrl)
 
-        self.br.select_form(nr=0)
+            print self.br.title()
 
-        '''
-        print css
-        print self.br["style[css]"]
-        return
+            self.br.select_form(nr=0)
 
-        if self.br["style[css]"] == css:
-            print "CSS is identical"
+            '''
+            print css
+            print self.br["style[css]"]
             return
-        '''
 
+            if self.br["style[css]"] == css:
+                print "CSS is identical"
+                return
+            '''
 
-        self.br["style[css]"] = css
-        self.br["style[screenshot_type_preference]"] = ['manual']
+            self.br["style[css]"] = css
+            self.br["style[screenshot_type_preference]"] = [screenshotType]
 
-        #print self.br.response().read()
+            #print self.br.response().read()
 
-        form = self.br.form
+            form = self.br.form
 
-        for c in form.controls[:]:
-            if not c.name or "fakeId" in c.name or "style_settings" in c.name:
-                form.controls.remove(c)
+            for c in form.controls[:]:
+                if not c.name or "fakeId" in c.name or "style_settings" in c.name:
+                    form.controls.remove(c)
 
-        response = self.br.submit()
+            print "Submitting form"
 
-        xml = fromstring(response.read())
+            response = self.br.submit()
 
-        errors = xml.cssselect('div.errorExplanation li')
+            xml = fromstring(response.read())
 
-        if errors:
-            print "Errors on save:"
+            errors = xml.cssselect('div.errorExplanation li')
 
+            retry = False
             for error in errors:
-                print "\t" + error.text
+                if "Primary screenshot must be provided" in error.text and screenshotType == 'manual':
+                    print "Using auto screenshot..."
+                    screenshotType = 'auto'
+                    retry = True
 
+            if retry:
+                continue
+
+            if errors:
+                print "Errors on save:"
+
+                for error in errors:
+                    print "\t" + error.text
+
+            break
 class GitUpdater():
 
     def __init__(self):
