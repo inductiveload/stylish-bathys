@@ -1,3 +1,11 @@
+/*
+ * Style:   Bathys
+ * Site:    Octopart
+ * Author:  Inductiveload
+ * License: CC-BY-SA
+ * File:    octopart/octopart.css
+ */
+ 
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("octopart.com") 
@@ -8,23 +16,56 @@ body
     background: #161616 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQI12NgYGD4LycnB8cMKioqqAJwBlQlXACmEgCsthUB9mCnuQAAAABJRU5ErkJggg==") repeat !important;
 }
 
-#f-logo img, .header-searchbar-layout-col1 a img, 
+img#f-logo, .header-searchbar-layout-col1 a img, 
 #g-header-icon, .toolbar-logo, 
 a.content-results-part-datasheet img, a.content-results-part-nodatasheet img {
 	height: 0 !important;
 	width: 0 !important;
 }
 
-#f-logo img {
+img#f-logo {
 	padding-left: 300px !important;
 	padding-top: 80px !important;
-	background: url(https://github.com/inductiveload/stylish-bathys/blob/master/octopart/Octopart%20dark.png?raw=true) no-repeat !important;
+	background: url(https://github.com/inductiveload/stylish-bathys/blob/master/octopart/Octopart%20light.png?raw=true) no-repeat !important;
+}
+
+/* adverts, social media, etc */
+#f-advert,
+#f-likebutton {
+    display: none !important;
+}
+
+textarea {
+    background-color: #111 !important;
+    border-color: #000 !important;
+    color: #CCC !important;
+}
+
+.g-search-box-wrapper a {
+    background-color: #111 !important;
+}
+
+/* buttons */
+.jp-btn, .jp-btn {
+    background: #111 !important;
+    border-color: #000 !important;
+    color: #BBB !important;
 }
 
 .header-searchbar-layout-col1 a img, #g-header-icon, .toolbar-logo  {
 	padding-left: 181px !important;
 	padding-top: 57px !important;
 	background: url(https://github.com/inductiveload/stylish-bathys/blob/master/octopart/Octopart%20dark%20small.png?raw=true) no-repeat !important;
+}
+
+/* main nav bar*/
+#g-navbar-bg,
+.g-app-header,
+#g-header-bg,
+.g-app-footer {
+    background-color: #111 !important;
+    border-color: #000 !important;
+    box-shadow: none !important;
 }
 
 #g-header-icon {
@@ -47,19 +88,10 @@ body, #layout-col2-inner-wrapper {
     color: #AAA !important;
 }
 
-#ad {
-    display: none !important;
-}
-
 #layout-body,
 div#main-container.body-layout
 {
     background: none !important;
-}
-
-#g-header-top-bg
-{
-    background-image: none !important;
 }
 
 .header-wrapper, #g-header-top-bg, #g-header-bottom,
@@ -166,5 +198,40 @@ td.offertable-stockcol,
     box-shadow:none !important;
 }
 
+/* breadcrump bars*/
+.jp-breadcrumb {
+    background-color: #111 !important;
+}
+
+.jp-breadcrumb > li {
+    text-shadow: 0 1px 0 #000 !important;
+}
+
+.jp-nav-tabs > .active > a, .jp-nav-tabs > .active > a:hover, .jp-nav-tabs > .active > a:focus {
+    background-color: #111 !important;
+        border-color: #000 !important;
+}
+
+/* row highlighting*/
+.grandchild-row:hover {
+    background-color: #111 !important;
+}
+
+/* part pages*/
+
+#filtersummary {
+    background-color: #111 !important;
+    border-color: #000 !important;
+}
+
+.part-results-snippet-wrapper div {
+    background: none !important;
+    margin-bottom: 10px !important;
+}
+
+/* grey table rows */
+.part-results .gray .col-seller, .part-results .gray .col-sku, .part-results .gray .col-stock, .part-results .gray .col-moq, .part-results .gray .col-pkg, .part-results .gray .col-curr, .part-results .gray .col-pb {
+    background-color: #111 !important;
+}
 
 }
