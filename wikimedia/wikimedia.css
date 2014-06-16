@@ -139,13 +139,14 @@ table.wikitable > * > tr > th {
 
 .mbox-text,
 .mw-echo-overlay
- {
+{
     background: #111 !important;
 }
 
 #p-personal .mw-echo-overlay li.mw-echo-notification.mw-echo-unread, 
-#p-personal .mw-echo-overlay li.mw-echo-notification.mw-echo-unread:hover,
-#mp-topbanner, #mp-topbanner div, .mbox-small {
+#p-personal .mw-echo-overlay li.mw-echo-notification.mw-echo-unread:hover, 
+div#footer #footer-info li, #mp-topbanner, #mp-topbanner div, 
+.mbox-small {
     background: #222 !important;
     color: #AAA !important;
 }
