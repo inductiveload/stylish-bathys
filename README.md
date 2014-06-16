@@ -31,6 +31,21 @@ Please add styles to this set! Send me a pull request and I'll see what I can do
 
  * GT DeepDark Google Theme
      * http://userstyles.org/styles/81403/gt-deepdark-theme-for-google
-     
-     
+
+#### Stylish Bathys
+
+ * Die.net Bathys
+     * http://userstyles.org/styles/87250/die-net-bathys
+ * Free-Electrons LXR Bathys
+     * http://userstyles.org/styles/87217/free-electrons-lxr-bathys
+ * 	Google Code Bathys
+     * http://userstyles.org/styles/101193/google-code-bathys
+ * 	Octopart Bathys
+     * http://userstyles.org/styles/86972/octopart-bathys
+ * 	Python Docs Bathys
+     * http://userstyles.org/styles/102245/python-docs-bathys
+ * 	Slashdot Bathys
+     * http://userstyles.org/styles/86979/slashdot-bathys
+ * 	StackOverflow Bathys
+     * http://userstyles.org/styles/87150/stackoverflow-bathys
 
