@@ -146,7 +146,7 @@ table.wikitable > * > tr > th {
 #p-personal .mw-echo-overlay li.mw-echo-notification.mw-echo-unread, 
 #p-personal .mw-echo-overlay li.mw-echo-notification.mw-echo-unread:hover, 
 div#footer #footer-info li, #mp-topbanner, #mp-topbanner div, 
-.mbox-small {
+.mbox-small, div#simpleSearch input {
     background: #222 !important;
     color: #AAA !important;
 }
